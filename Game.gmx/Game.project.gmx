@@ -5,9 +5,20 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <sprites name="sprites">
+    <sprite>sprites\sp32</sprite>
+  </sprites>
+  <backgrounds name="background">
+    <background>background\baTileset</background>
+  </backgrounds>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\obPlayer</object>
+    <object>objects\obSolid</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\roDebug</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
